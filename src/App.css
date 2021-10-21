@@ -15,3 +15,22 @@
 .slider {
   color: black !important;
 }
+
+.weather {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.weather__container {
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.weather__desc {
+  font-size: 32px;
+}
