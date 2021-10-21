@@ -46,11 +46,9 @@ function App() {
   }, [coords]);
 
   useEffect(() => {
-    const min = -10;
-    const max = 30;
-
-    bgc.current.style.backgroundPosition = `${((temp - min) * 100) / (max - min)}% 0%`;
+    bgc.current.style.backgroundPosition = `${temp / 0.4}% 0%`;
   }, [temp]);
+
 
 
   return (

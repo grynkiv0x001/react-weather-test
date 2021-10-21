@@ -5,9 +5,10 @@ export const TempSlider = ({ temp, handleChange }) => {
     <div className="container">
       <Slider
         className="slider"
-        value={temp}
+        min={0}
+        max={40}
+        defaultValue={10}
         onChange={handleChange}
-        step={1}
       />
     </div>
   );
