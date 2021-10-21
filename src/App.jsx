@@ -56,9 +56,7 @@ function App() {
   return (
     <>
       <div ref={bgc} className="temprature-background"></div>
-      <TempSlider temp={temp} handleChange={(event) => {
-        console.log(event.target.value)
-        setTemp(event.target.value)}} />
+      <TempSlider temp={temp} handleChange={(event) => setTemp(event.target.value)} />
     </>
   );
 }
